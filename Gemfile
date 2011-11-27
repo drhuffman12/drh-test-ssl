@@ -12,6 +12,7 @@ end
 group :development, :test do
   #gem 'sqlite3-ruby'
   gem 'sqlite3'
+  #gem 'mongrel'
   #gem 'taps'
   gem 'ruby-debug19', :require => 'ruby-debug'
 end
