@@ -67,22 +67,21 @@ Steps (Rails 3.0.10):
   # TO ADD SSL for Heroku:
   heroku addons:add piggyback_ssl
 
-  
-  # Generate SSL files for localhost:
-  # !!!: Add "lib/certs" to the ".gitignore" file!!!
-
-  mkdir lib/certs
-
-  # ... Generate SSH files:
-  ssh-keygen -t rsa
-
-  # ... Generate OpenSSL key and cert (ONE STEP AT A TIME!!!):
-  openssl genrsa -des3 -out lib/certs/server.key 1024
-  openssl req -new -key lib/certs/server.key -out lib/certs/server.csr
-  cp lib/certs/server.key lib/certs/server.key.orig
-  openssl rsa -in lib/certs/server.key.orig -out lib/certs/server.key
-
-  # TO FORCE SSL in your app:
+  ## Generate SSL files for localhost:
+  ## !!!: Add "lib/certs" to the ".gitignore" file!!!
+  #
+  #mkdir lib/certs
+  #
+  ## ... Generate SSH files:
+  #ssh-keygen -t rsa
+  #
+  ## ... Generate OpenSSL key and cert (ONE STEP AT A TIME!!!):
+  #openssl genrsa -des3 -out lib/certs/server.key 1024
+  #openssl req -new -key lib/certs/server.key -out lib/certs/server.csr
+  #cp lib/certs/server.key lib/certs/server.key.orig
+  #openssl rsa -in lib/certs/server.key.orig -out lib/certs/server.key
+  #
+  ## TO FORCE SSL in your app:
   
 -----------------------------
 Github:
