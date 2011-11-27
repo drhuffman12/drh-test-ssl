@@ -1,7 +1,27 @@
 == Welcome to drh-test-ssl
 
-This is a simple RoR app to test SSL with Heroku.
+This is a simple RoR 3.0.x app to test SSL with Heroku.
 
 Note: It only enables SSL for 'production'. Don't forget to run this from the folder for your app (or add via Heroku Web UI):
 
-  heroku addons:add piggyback_ssl
+    heroku addons:add piggyback_ssl
+
+
+The other key element is to edit your "application_controller.rb" file to include the following 'force_app_ssl' code:
+
+    class ApplicationController < ActionController::Base
+      ...
+
+      before_filter :force_app_ssl
+      def force_app_ssl
+        if (Rails.env == 'production')
+          if (!request.ssl?)
+            redirect_to "https://" + request.host + request.request_uri
+            flash.keep
+          end
+        end
+        return false
+      end
+
+      ...
+    end
