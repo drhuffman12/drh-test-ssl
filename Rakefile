@@ -4,4 +4,4 @@
 require File.expand_path('../config/application', __FILE__)
 require 'rake'
 
-DrhTestSsl::Application.load_tasks
+DrhTestSsl2::Application.load_tasks

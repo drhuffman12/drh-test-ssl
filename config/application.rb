@@ -2,24 +2,12 @@ require File.expand_path('../boot', __FILE__)
 
 require 'rails/all'
 
-## SSL vvvv
-## http://stackoverflow.com/questions/3861772/force-ssl-using-ssl-requirement-in-rails-app
-#require File.expand_path('../../lib/force_ssl.rb', __FILE__)
-## SSL ^^^^
-
 # If you have a Gemfile, require the gems listed there, including any gems
 # you've limited to :test, :development, or :production.
 Bundler.require(:default, Rails.env) if defined?(Bundler)
 
-module DrhTestSsl
+module DrhTestSsl2
   class Application < Rails::Application
-
-    ## SSL vvvv
-    ## http://stackoverflow.com/questions/3861772/force-ssl-using-ssl-requirement-in-rails-app
-    #config.middleware.use "ForceSSL"
-    #config.middleware.use "ForceSSL" if Rails.env == 'production' # RAILS_ENV == 'production'
-    ## SSL ^^^^
-
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration should go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded.

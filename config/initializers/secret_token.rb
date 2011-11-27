@@ -4,4 +4,4 @@
 # If you change this key, all old signed cookies will become invalid!
 # Make sure the secret is at least 30 characters and all random,
 # no regular words or you'll be exposed to dictionary attacks.
-DrhTestSsl::Application.config.secret_token = '25964d4597801292fcfd366593b3e50c06a7205d8892d4ceceb1f1e529a1320191ffc4ba8ea679a78c4aa3d12d1bdb5877f131c7243e8d11642a514cdeff8250'
+DrhTestSsl2::Application.config.secret_token = '988378fa90e392de10d216959926d5bc7feb2f7900170c630d1a7395b0c69753ab248711fe9874db59e5aeb7cc1382a06fdf7bce8f1bb53a64c138ad4febb221'
