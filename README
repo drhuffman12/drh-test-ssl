@@ -2,7 +2,9 @@
 
 This is a simple RoR 3.0.x app to test SSL with Heroku.
 
-Note: It only enables SSL for 'production'. Don't forget to run this from the folder for your app (or add via Heroku Web UI):
+Note: It only enables SSL for 'production'.
+
+Don't forget to run this from the folder for your app (or add via Heroku Web UI):
 
     heroku addons:add piggyback_ssl
 
