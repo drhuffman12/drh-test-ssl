@@ -17,7 +17,7 @@ module DrhTestSsl
     ## SSL vvvv
     ## http://stackoverflow.com/questions/3861772/force-ssl-using-ssl-requirement-in-rails-app
     #config.middleware.use "ForceSSL"
-    config.middleware.use "ForceSSL" if Rails.env == 'production' # RAILS_ENV == 'production'
+    #config.middleware.use "ForceSSL" if Rails.env == 'production' # RAILS_ENV == 'production'
     ## SSL ^^^^
 
     # Settings in config/environments/* take precedence over those specified here.

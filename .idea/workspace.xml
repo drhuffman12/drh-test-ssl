@@ -5,7 +5,6 @@
     <list id="18c70e1d-9189-4d0c-a198-a8a5759b041a" name="my_ignores" comment="" />
     <list default="true" id="5ba0c0e1-bb88-46d4-8713-f0bec3ab8bca" name="my_defaults" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/application.rb" afterPath="$PROJECT_DIR$/config/application.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/force_ssl.rb" afterPath="$PROJECT_DIR$/lib/force_ssl.rb" />
     </list>
     <ignored path="drh-test-ssl.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -46,19 +45,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="force_ssl.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="force_ssl.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/force_ssl.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="45" selection-start="377" selection-end="377" vertical-scroll-proportion="0.4851752">
+            <state line="12" column="45" selection-start="377" selection-end="377" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="application.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/application.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="66" selection-start="711" selection-end="711" vertical-scroll-proportion="0.0">
+            <state line="20" column="40" selection-start="755" selection-end="755" vertical-scroll-proportion="0.80862534">
               <folding />
             </state>
           </provider>
@@ -721,16 +720,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/application.rb">
+    <entry file="file://$PROJECT_DIR$/lib/force_ssl.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="66" selection-start="711" selection-end="711" vertical-scroll-proportion="0.0">
+        <state line="12" column="45" selection-start="377" selection-end="377" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/force_ssl.rb">
+    <entry file="file://$PROJECT_DIR$/config/application.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="45" selection-start="377" selection-end="377" vertical-scroll-proportion="0.4851752">
+        <state line="20" column="40" selection-start="755" selection-end="755" vertical-scroll-proportion="0.80862534">
           <folding />
         </state>
       </provider>
