@@ -1,0 +1,77 @@
+Ref:
+ * http://devcenter.heroku.com/articles/collab
+ * http://devcenter.heroku.com/articles/using-the-cli
+ * http://devcenter.heroku.com/articles/keys
+ * http://devcenter.heroku.com/articles?utf8=%E2%9C%93&q=ssh
+
+Steps (Rails 2.3.5):
+
+  <install Ruby and RubyGems>
+  gem install rails -v 2.3.5
+  gem install heroku
+  ssh-keygen -t rsa
+  heroku login
+  heroku keys:add
+  git clone git@heroku.com:YOURAPP.git -o production
+
+  # To upload changes:
+  <Edit file(s)>
+  git commit -a -m "<some comment>"
+  git push production master
+
+  # To download changes:
+  git pull production master
+
+
+Steps (Rails 3.0.10):
+
+  Heroku needs 'libreadline-dev', which might be missing...
+    See: http://blog.project-sierra.de/archives/1534
+      sudo apt-get install libreadline-dev # or add via package manager
+      cd ~/.rvm/src/ruby-<ver>/ext/readline
+      ruby extconf.rb
+      make
+      make install
+
+  <install Ruby and RubyGems>
+  gem install rails -v 3.0.10
+  ... see also as noted above in "Steps (Rails 2.3.5):"
+
+  rails YOURAPP
+  git init
+
+  heroku login
+
+  ssh-keygen -t rsa
+  heroku keys:add
+
+  heroku create --stack cedar
+  heroku rename YOURAPP
+  # e.g.:
+    # [<user>@<system> >folder>]$ heroku rename my-app
+    # http://my-app.herokuapp.com/ | git@heroku.com:my-app.git
+    # Git remote heroku updated
+
+  <make edits>
+  git add .
+  git commit -m "<some message>"
+  
+  git push production master
+  git push heroku master
+
+-----------------------------
+Github:
+
+  git remote add origin git@github.com:YOURGITID/YOURAPP.github
+  # e.g.:
+  #   [<user>@<system> >folder>]$ git remote add origin git@github.com:drhuffman12/drh-portfolio.github
+  ...
+  git push -u origin master
+
+  
+============================
+
+  git push heroku master
+
+  git push -u origin master
+
