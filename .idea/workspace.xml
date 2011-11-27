@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list id="20cb450c-1403-4961-acee-aa5a010740bf" name="Default" comment="" />
     <list id="18c70e1d-9189-4d0c-a198-a8a5759b041a" name="my_ignores" comment="" />
-    <list default="true" id="5ba0c0e1-bb88-46d4-8713-f0bec3ab8bca" name="my_defaults" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_scratchpads_/heroku.txt" afterPath="$PROJECT_DIR$/_scratchpads_/heroku.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
-    </list>
+    <list default="true" id="5ba0c0e1-bb88-46d4-8713-f0bec3ab8bca" name="my_defaults" comment="" />
     <ignored path="drh-test-ssl.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />

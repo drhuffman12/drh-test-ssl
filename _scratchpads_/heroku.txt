@@ -64,6 +64,8 @@ Steps (Rails 3.0.10):
   heroku run rake db:migrate
   heroku restart
 
+  # TO ADD SSL:
+  heroku addons:add piggyback_ssl
 -----------------------------
 Github:
 
