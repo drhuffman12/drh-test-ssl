@@ -1,11 +1,12 @@
 class ApplicationController < ActionController::Base
   protect_from_forgery
 
-  before_filter do
-    #request.protocol = 'https://'
-    #unless request.protocol == 'https://'
-    #  redirect_to 'my_page_with_https'
-    #end
-  end
+  #APP_SSL_PROTOCOL = 'https://'
+  #before_filter do
+  #  #request.protocol = 'https://'
+  #  unless request.protocol == APP_SSL_PROTOCOL
+  #    redirect_to request.url.gsub(request.protocol,APP_SSL_PROTOCOL)
+  #  end
+  #end
 
 end

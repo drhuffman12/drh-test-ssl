@@ -3,7 +3,7 @@ DrhTestSsl::Application.routes.draw do
   ## http://stackoverflow.com/questions/3634100/rails-3-ssl-deprecation
   ## Redirect /foos and anything starting with /foos/ to https.
   #match "(*path)", :to => redirect { |_, request| "https://" + request.host_with_port + request.fullpath }
-  match "(*path)", :to => redirect { |_, request| "https://" + request.host_with_port + request.fullpath } if RAILS_ENV == 'production'
+  #match "(*path)", :to => redirect { |_, request| "https://" + request.host_with_port + request.fullpath } if Rails.env == 'production' # RAILS_ENV == 'production'
 
   ## http://stackoverflow.com/questions/3634100/rails-3-ssl-deprecation
   #scope :constraints => { :protocol => "https" } do

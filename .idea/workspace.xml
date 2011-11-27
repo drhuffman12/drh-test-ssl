@@ -4,7 +4,10 @@
     <list id="20cb450c-1403-4961-acee-aa5a010740bf" name="Default" comment="" />
     <list id="18c70e1d-9189-4d0c-a198-a8a5759b041a" name="my_ignores" comment="" />
     <list default="true" id="5ba0c0e1-bb88-46d4-8713-f0bec3ab8bca" name="my_defaults" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/application.rb" afterPath="$PROJECT_DIR$/config/application.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/force_ssl.rb" afterPath="$PROJECT_DIR$/lib/force_ssl.rb" />
     </list>
     <ignored path="drh-test-ssl.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -36,10 +39,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="routes.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="routes.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/routes.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="107" selection-start="391" selection-end="419" vertical-scroll-proportion="0.0">
+            <state line="5" column="139" selection-start="423" selection-end="423" vertical-scroll-proportion="0.20949721">
               <folding />
             </state>
           </provider>
@@ -48,16 +51,16 @@
       <file leaf-file-name="force_ssl.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/force_ssl.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="45" selection-start="377" selection-end="377" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="1" selection-end="402" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="application.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/application.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="40" selection-start="755" selection-end="755" vertical-scroll-proportion="0.80862534">
+            <state line="19" column="69" selection-start="687" selection-end="715" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -66,7 +69,7 @@
       <file leaf-file-name="application_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="9" selection-start="140" selection-end="222" vertical-scroll-proportion="0.0">
+            <state line="9" column="6" selection-start="102" selection-end="301" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -75,7 +78,7 @@
       <file leaf-file-name="rails" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/script/rails">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="7" selection-start="155" selection-end="1300" vertical-scroll-proportion="0.0">
+            <state line="10" column="63" selection-start="272" selection-end="272" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -103,11 +106,11 @@
       <list>
         <option value="$PROJECT_DIR$/config/environment.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
-        <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
         <option value="$PROJECT_DIR$/script/rails" />
-        <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/lib/force_ssl.rb" />
         <option value="$PROJECT_DIR$/config/application.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
+        <option value="$PROJECT_DIR$/config/routes.rb" />
       </list>
     </option>
   </component>
@@ -699,37 +702,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
+    <entry file="file://$PROJECT_DIR$/lib/force_ssl.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="9" selection-start="140" selection-end="222" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="1" selection-end="402" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/script/rails">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="7" selection-start="155" selection-end="1300" vertical-scroll-proportion="0.0">
+        <state line="10" column="63" selection-start="272" selection-end="272" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="107" selection-start="391" selection-end="419" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/force_ssl.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="45" selection-start="377" selection-end="377" vertical-scroll-proportion="0.0">
+        <state line="9" column="6" selection-start="102" selection-end="301" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/application.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="40" selection-start="755" selection-end="755" vertical-scroll-proportion="0.80862534">
+        <state line="19" column="69" selection-start="687" selection-end="715" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="139" selection-start="423" selection-end="423" vertical-scroll-proportion="0.20949721">
           <folding />
         </state>
       </provider>

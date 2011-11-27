@@ -4,7 +4,7 @@ require 'rails/all'
 
 ## SSL vvvv
 ## http://stackoverflow.com/questions/3861772/force-ssl-using-ssl-requirement-in-rails-app
-require File.expand_path('../../lib/force_ssl.rb', __FILE__)
+#require File.expand_path('../../lib/force_ssl.rb', __FILE__)
 ## SSL ^^^^
 
 # If you have a Gemfile, require the gems listed there, including any gems
