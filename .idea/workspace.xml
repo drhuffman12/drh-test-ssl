@@ -32,10 +32,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="heroku.txt" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="heroku.txt" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_scratchpads_/heroku.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="67" column="33" selection-start="1560" selection-end="1560" vertical-scroll-proportion="0.6981132">
+            <state line="67" column="33" selection-start="1560" selection-end="1560" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Gemfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -501,7 +510,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_scratchpads_/heroku.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="33" selection-start="1560" selection-end="1560" vertical-scroll-proportion="0.6981132">
+        <state line="67" column="33" selection-start="1560" selection-end="1560" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>

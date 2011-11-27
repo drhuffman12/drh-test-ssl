@@ -1,17 +1,25 @@
 source 'http://rubygems.org'
 
 gem 'rails', '3.0.10'
+gem 'heroku'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-gem 'sqlite3'
+group :production do
+  gem 'pg'
+end
+group :development, :test do
+  #gem 'sqlite3-ruby'
+  gem 'sqlite3'
+  #gem 'taps'
+  gem 'ruby-debug19', :require => 'ruby-debug'
+end
 
-# Use unicorn as the web server
-# gem 'unicorn'
+gem "paperclip"
+gem 'ckeditor'
 
-# Deploy with Capistrano
-# gem 'capistrano'
+gem 'ruby-graphviz'
 
 # To use debugger (ruby-debug for Ruby 1.8.7+, ruby-debug19 for Ruby 1.9.2+)
 # gem 'ruby-debug'
