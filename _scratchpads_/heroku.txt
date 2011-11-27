@@ -12,6 +12,8 @@ Steps (Rails 2.3.5):
   ssh-keygen -t rsa
   heroku login
   heroku keys:add
+
+  # to copy down from heroku:
   git clone git@heroku.com:YOURAPP.git -o production
 
   # To upload changes:
