@@ -57,9 +57,12 @@ Steps (Rails 3.0.10):
   <make edits>
   git add .
   git commit -m "<some message>"
-  
+
   git push production master
   git push heroku master
+  
+  heroku run rake db:migrate
+  heroku restart
 
 -----------------------------
 Github:
